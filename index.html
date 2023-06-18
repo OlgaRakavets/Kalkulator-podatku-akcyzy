@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/style.css">
+
+    <title>Kalkulator podatku akcyzowego</title>
+</head>
+
+<body>
+    <section class="container">
+        <div class="main">
+            <div class="header">
+                <h1>Kalkulator podatku akcyzy za samochód</h1>
+            </div>
+            <section class="containerForm">
+                <form id="taxCalculatorForm">
+                    <label for="carType">Rodzaj samochodu:</label>
+                    <select id="carType" required>
+                        <option value="personal">Osobowy</option>
+                        <option value="hybrid">Hybrydowy</option>
+                        <option value="electric">Elektryczny</option>
+                        <option value="phev">Hybryda typu Plug-in (PHEV)</option>
+                    </select>
+                    <label for="carValue">Wartość samochodu:</label>
+                    <input type="number" id="carValue" min="0" max="9999999" required>
+                    <label for="engineCapacity">Pojemność silnika (cm³):</label>
+                    <input id="engineCapacity" type="number" min="0" required>
+                    <div class="buttonContainer"> <button type="submit">Oblicz</button></div>
+                </form>
+            </section>
+            <div id="result"></div>
+        </div>
+    </section>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>

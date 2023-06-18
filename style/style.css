@@ -1,0 +1,103 @@
+* {
+    margin: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    font-size: 1.2rem;
+}
+
+.container {
+    max-width: 1120px;
+    width: 100%;
+    height: 100vh;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.main {
+    width: 100%;
+    height: 50%;
+    margin-top: 5%;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 5%;
+    text-align: center;
+    color: rgb(30, 82, 107);
+}
+
+.containerForm {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+label {
+    color: rgb(30, 82, 107);
+    font-size: 1.3rem;
+    display: block;
+    margin-bottom: 15px;
+    margin-top: 15px;
+    max-width: 240px;
+    width: 100%;
+}
+
+input[type="number"] {
+    max-width: 150px;
+    width: 100%;
+    height: 25px;
+    border: solid 3px rgb(152, 179, 192);
+    font-size: 1.2rem;
+    background-color: rgb(178, 224, 245);
+    color: rgb(30, 82, 107);
+}
+
+input:hover {
+    background-color: rgb(107, 175, 207);
+}
+
+#carType {
+    border: solid 3px rgb(152, 179, 192);
+    font-size: 1.2rem;
+    height: 35px;
+    background-color: rgb(178, 224, 245);
+    color: rgb(30, 82, 107);
+}
+
+#carType:hover {
+    background-color: rgb(107, 175, 207);
+}
+
+.buttonContainer {
+    margin-top: 15%;
+    display: flex;
+    justify-content: center;
+    max-width: 250px;
+
+}
+
+button {
+    width: 100%;
+    height: 50px;
+    border: solid 3px rgb(152, 179, 192);
+    font-size: 1.5rem;
+    background-color: rgb(178, 224, 245);
+    color: rgb(30, 82, 107);
+}
+
+button:hover {
+    background-color: rgb(107, 175, 207);
+}
+
+#result {
+    margin-top: 30px;
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: rgb(30, 82, 107);
+}
